@@ -21,10 +21,17 @@ function doWhileLoop(array) {
   function maybeTrue() {
     return Math.random() >= 0.5
   }
+<<<<<<< HEAD
 
   do {
     array = array.slice(1)
   } while (array.length > 0 && maybeTrue())
+=======
+  
+  do {
+    array = array.slice(1)
+  } while ([array.length > 0 && maybeTrue()])
+>>>>>>> e91cc9d45b05489358a6b02164f5ffeb534ae406
 
   return array
 }
